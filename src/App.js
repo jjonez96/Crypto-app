@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      VAMK ON #PARASTAAIKAA
+      VMK ON #PARASTAAIKAA
     </div>
   );
 }
