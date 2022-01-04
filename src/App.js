@@ -1,12 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import React from "react";
+import Exa from "./Exa.jsx";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      VAMK ON #PARASTAAIKAA
+    <div>
+      <Exa />
     </div>
   );
-}
+};
 
 export default App;
