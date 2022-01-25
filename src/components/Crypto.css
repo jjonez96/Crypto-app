@@ -1,0 +1,90 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #000411;
+  scroll-behavior: smooth;
+}
+.center {
+  text-align: center;
+  color: #ecdbba;
+}
+
+hr {
+  position: relative;
+  bottom: 16px;
+  border: none;
+  height: 0.5px;
+  background-color: #ecdbba;
+  box-shadow: 0 0 15px #ecdbba;
+  width: 30%;
+}
+.input {
+  font-size: large;
+  color: #ecdbba;
+  overflow: hidden;
+  background-color: transparent;
+  border: 1px solid #ecdbba;
+  border-radius: 7px;
+  position: fixed;
+  right: 10%;
+  top: 1px;
+  width: 80%;
+  height: 3%;
+}
+
+::placeholder {
+  color: #a09580;
+}
+.input:hover {
+  background: transparent;
+  transition-duration: 0.4s;
+  box-shadow: 0 0 15px #ecdbba;
+}
+.input:focus {
+  outline: none !important;
+  border: 1px solid #ecdbba;
+  box-shadow: 0 0 10px #ecdbba;
+}
+
+h2 {
+  position: relative;
+  top: 10px;
+  color: #ecdbba;
+}
+b {
+  color: #c84b31;
+}
+.crypto {
+  color: rgb(255, 255, 255);
+}
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 60px;
+  background: transparent;
+  color: #c84b31;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #ecdbba;
+}
+
+.back-to-top:hover {
+  background: transparent;
+  box-shadow: 0 0 15px #ecdbba;
+  transition-duration: 0.4s;
+}
+.symbol {
+  color: #ecdbba;
+  font-size: 18px;
+}
+.red {
+  position: relative;
+  bottom: 15px;
+  color: #ff3a3a;
+}
+
+.green {
+  position: relative;
+  bottom: 15px;
+  color: #11d811;
+}
